@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Заголовок документу</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <table>
+      <!-- table content -->
+    </table>
+  </body>
+</html>
