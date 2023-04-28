@@ -3,19 +3,26 @@
   <head>
     <title>Заголовок документу</title>
     <meta charset="utf-8" />
+    <style>
+      table, tr, td, th {
+        border: 1px solid rgb(212, 7, 7);
+        color: blue;
+      }
+    </style>
   </head>
   <body>
     <table>
+      <caption>Table name</caption>
       <thead>
         <tr>
-          <th>Month</th>
-          <th>Savings</th>
+          <th id="name">Month</th>
+          <th id="svalue" abbr="Unknown field with unknown data" title="Also field descriptiion, global attr">Savings</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>January</td>
-          <td>$100</td>
+          <td headers="name">January</td>
+          <td headers="svalue">$100</td>
         </tr>
         <tr>
           <td>February</td>
